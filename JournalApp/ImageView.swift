@@ -23,6 +23,6 @@ struct ImageView: View {
 
 struct ImageView_Previews: PreviewProvider {
     static var previews: some View {
-        ImageView(selectedImage: .constant("walpaper"))
+        ImageView(selectedImage: .constant("journal"))
     }
 }

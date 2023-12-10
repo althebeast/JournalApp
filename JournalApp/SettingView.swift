@@ -10,6 +10,7 @@ import SwiftUI
 struct SettingView: View {
     
     @State var privateMode = false
+    @State var isDark = false
     
     var body: some View {
         
@@ -18,6 +19,12 @@ struct SettingView: View {
             
             if privateMode {
                 Text("Private mode is on")
+            }
+            
+            Toggle("Dark Mode", isOn: $isDark)
+            
+            if isDark {
+                Text("Dark mode is on")
             }
         }
         .padding()

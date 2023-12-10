@@ -15,7 +15,7 @@ struct JournalView: View {
     @State var journalText = ""
     @State var selectedImage = ""
     
-    var image = "walpaper"
+    var image = "journal"
     
     var body: some View {
         
