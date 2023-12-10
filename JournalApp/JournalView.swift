@@ -40,7 +40,7 @@ struct JournalView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .frame(maxWidth: (proxy.size.width - 10) / 2)
                                     .clipped()
-                                    .cornerRadius(5)
+                                    .cornerRadius(50)
                                     .onTapGesture {
                                         selectedImageVisible = true
                                         selectedImage = image
